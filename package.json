@@ -1,0 +1,28 @@
+{
+  "name": "manualangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-watch": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.10",
+    "@angular/compiler": "^2.4.10",
+    "@angular/core": "^2.4.10",
+    "@angular/platform-browser": "^2.4.10",
+    "@angular/platform-browser-dynamic": "^2.4.10",
+    "module-loader": "0.0.8",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.0.1",
+    "typescript": "^2.2.1",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
